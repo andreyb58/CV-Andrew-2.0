@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap');
+body {
+    background-color: #f4f4f9;
+    color: #2f4550;
+
+    font: normal 16px 'Montserrat', sans-serif;
+
+}
+a {
+    color: #586f7c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #b8dbd9;
+}
+
+a:visited{
+    color: grey;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+    color: #586f7c;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 5px;*/
+    /*word-spacing: 42px;*/
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/*.social {
+    background: #b8dbd9 ;
+    padding: 15px 40px;
+    border: 5px solid #b8dbd9;
+    margin: #b8dbd9;
+}*/
+
+/*.box-model > div {
+    float: left;
+    background: #353535;
+    height: 200px;
+    width: 25%;
+    border: 4px solid red;
+    box-sizing: border-box;
+} */
+
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.bg-color1 {
+    background: #9a9b87;
+    color:#f4f4f9
+}
+
+.bg-color2 {
+    background: #ad8e85;
+    color:#f4f4f9
+}
+
+.bg-color3 {
+    background: #e4c6bd;
+    color:#f4f4f9
+}
+
+.card {
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    margin-bottom: 7px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 7px;
+}
+
+.table td:nth-child(2) {
+    font-size: smaller;
+}
+
+.do-ya li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.do-ya {
+    padding-left: 15px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #2f4550;
+    padding: 10px 0px 5px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background:#2f4550;
+    padding: 15px 20px;
+    color:#f4f4f9;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/*.position {
+    position: relative;
+    border: 4px solid #2f4550;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+} */
+
+.box {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    /*top: 50px;*/
+    width: 50px;
+    height: 50px;
+    background: #586f7c;
+}
